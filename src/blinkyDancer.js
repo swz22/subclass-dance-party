@@ -2,7 +2,10 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
   //var blinkyDancer = makeDancer(top, left, timeBetweenSteps);
   //this = Object.create(Dancer.prototype)
   Dancer.call(this, top, left, timeBetweenSteps);
+  this.$node = $('<span class="dancer" id="blinky">  <img width="250"src="https://media3.giphy.com/media/kEiKdgFxZicNmkVQ0Z/giphy.gif"> </span>');
+  this.setPosition(top, left);
 }
+
 
 makeBlinkyDancer.prototype = Object.create(Dancer.prototype);
 makeBlinkyDancer.prototype.constructor = makeBlinkyDancer;
