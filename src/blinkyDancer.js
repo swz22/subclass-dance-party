@@ -33,9 +33,8 @@ makeBlinkyDancer.prototype.constructor = makeBlinkyDancer;
     this.$node.toggle();
   };
 
-
-var firstBlinky = new makeBlinkyDancer(1, 2, 300);
-firstBlinky.step();
+// var firstBlinky = new makeBlinkyDancer(1, 2, 300);
+// firstBlinky.step();
 
 
 // var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
